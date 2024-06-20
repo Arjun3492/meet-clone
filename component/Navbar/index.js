@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className={styles.navbarContainer}>
                 <div className={styles.navbarTitle}>Google Meet Clone</div>
                 <div onClick={openGithub} className={styles.cursor}>
-                    <GithubLogo styles={styles.log0} />
+                    <GithubLogo styles={styles.logo} />
                 </div>
             </div>
         </nav>
