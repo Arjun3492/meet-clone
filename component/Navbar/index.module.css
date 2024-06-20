@@ -1,0 +1,23 @@
+.navbar {
+    @apply bg-gray-800 p-4;
+
+    .navbarContainer {
+        @apply container mx-auto flex justify-between items-center;
+    }
+
+    .navbarTitle {
+        @apply text-white text-lg;
+    }
+
+    .cursor {
+        @apply cursor-pointer;
+
+    }
+
+    .logo {
+        @apply text-white fill-current;
+
+    }
+
+
+}
