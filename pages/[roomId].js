@@ -8,7 +8,6 @@ import usePlayer from "@/hooks/usePlayer";
 
 import Player from "@/component/Player";
 import Bottom from "@/component/Bottom";
-import CopySection from "@/component/CopySection";
 
 import styles from "@/styles/room.module.css";
 import { useRouter } from "next/router";
@@ -162,7 +161,6 @@ const Room = () => {
           );
         })}
       </div>
-      <CopySection roomId={roomId}/>
       <Bottom
         muted={playerHighlighted?.muted}
         playing={playerHighlighted?.playing}
