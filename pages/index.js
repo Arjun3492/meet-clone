@@ -15,7 +15,7 @@ const Home = () => {
   // Define a function to create a new meeting and generate a unique meeting ID
   const handleCreateMeeting = () => {
     const newMeetingId = uuidv4();
-    const newMeetingLink = `${window.location.origin}/meeting/${newMeetingId}`;
+    const newMeetingLink = `${window.location.origin}/meet-clone/meeting/${newMeetingId}`;
     setMeetingLink(newMeetingLink);
   };
 
