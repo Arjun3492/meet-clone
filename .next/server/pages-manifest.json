@@ -1,1 +1,1 @@
-{"/_app":"pages/_app.js","/_error":"pages/_error.js","/":"pages/index.html","/api/socket":"pages/api/socket.js","/_document":"pages/_document.js","/meeting/[roomId]":"pages/meeting/[roomId].html","/404":"pages/404.html"}
+{"/_app":"pages/_app.js","/_document":"pages/_document.js","/meeting/[roomId]":"pages/meeting/[roomId].html","/":"pages/index.html","/_error":"pages/_error.js","/404":"pages/404.html"}
