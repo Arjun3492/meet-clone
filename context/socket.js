@@ -14,7 +14,7 @@ export const SocketProvider = (props) => {
 
   useEffect(() => {
 
-    const connection = io("http://localhost:3004");
+    const connection = io();
     console.log("socket connection", connection)
     setSocket(connection);
   }, []);
