@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { cloneDeep } from "lodash";
 
-import { useSocket } from "@/context/socket";
 import usePeer from "@/hooks/usePeer";
 import useMediaStream from "@/hooks/useMediaStream";
 import usePlayer from "@/hooks/usePlayer";
@@ -12,6 +11,7 @@ import Bottom from "@/component/Bottom";
 import styles from "@/styles/room.module.css";
 
 import { useRouter } from "next/router";
+import { useSocket } from "@/context/socket";
 
 const Room = () => {
     // Get the socket instance from the context

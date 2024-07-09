@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/wNlK3_jpLLF9C51jhe-6t/_buildManifest.js",
-    "static/wNlK3_jpLLF9C51jhe-6t/_ssgManifest.js"
+    "static/VfpYfPoHCBJxJb-CqaXsO/_buildManifest.js",
+    "static/VfpYfPoHCBJxJb-CqaXsO/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -22,7 +22,7 @@
       "static/chunks/framework-84465b8d7b10076d.js",
       "static/chunks/main-368fac7af60b33b2.js",
       "static/css/23dec596e7cd3cd8.css",
-      "static/chunks/pages/_app-a88e524ea019a5b0.js"
+      "static/chunks/pages/_app-504cc63a7f7df70b.js"
     ],
     "/_error": [
       "static/chunks/webpack-39fd1791b7372993.js",
@@ -34,9 +34,9 @@
       "static/chunks/webpack-39fd1791b7372993.js",
       "static/chunks/framework-84465b8d7b10076d.js",
       "static/chunks/main-368fac7af60b33b2.js",
-      "static/chunks/204-5471ec44b48c4961.js",
+      "static/chunks/425-a427e5115b51739a.js",
       "static/css/aae62aaabd59ce59.css",
-      "static/chunks/pages/meeting/[roomId]-ba1e5fc6c03a9bae.js"
+      "static/chunks/pages/meeting/[roomId]-a268baffa77ac4fa.js"
     ]
   },
   "ampFirstPages": []
