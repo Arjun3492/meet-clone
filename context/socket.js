@@ -13,7 +13,8 @@ export const SocketProvider = (props) => {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
-    const connection = io();
+
+    const connection = io("http://localhost:3004");
     console.log("socket connection", connection)
     setSocket(connection);
   }, []);
